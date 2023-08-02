@@ -1,0 +1,33 @@
+
+
+@media(max-width: 1300px) {
+    header .navbar1 {
+        display: none;
+    }
+    header .menubar{
+        display: block;
+    }
+    header{
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 786px) {
+    header .navbar2{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+}
+
+@media(max-width: 600px) {
+   .banner-image{
+    display: none;
+   }
+   .banner{
+    display: flex;
+    align-items: center;
+   }
+}
